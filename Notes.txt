@@ -1,0 +1,25 @@
+*New Model*
+1. Creating a new model - new public class
+2. Add to Data/DataContext.cs DbSet
+3. ef migration 
+    -- dotnet ef migrations add <description>
+4. apply to db
+    -- dotnet ef database update
+
+*Repository Pattern*
+- Remove duplicates
+- Testability
+- Change the Repository implementation to whatever and the controllers don't need to know - interface relationship
+
+1. Create interface e.g IAuthRepository
+
+
+
+
+*JWT Token*
+1. Client logins with userpassword to server
+2. Server sends JWT token back to client
+3. Client sends JWT token to server for every request
+4. Server validates and responds
+
+
