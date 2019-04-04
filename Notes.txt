@@ -23,3 +23,8 @@
 4. Server validates and responds
 
 
+[Authorize] attributes for controller apis 
+
+Add middleware in Starter.cs 
+
+
