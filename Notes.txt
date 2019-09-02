@@ -28,3 +28,14 @@
 Add middleware in Starter.cs 
 
 
+3rd party 
+- alertifyjs
+- angular JWT
+- NGX Bootstrap
+- Bootswatch - free themes
+
+
+
+
+
+
