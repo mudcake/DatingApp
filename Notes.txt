@@ -13,29 +13,30 @@
 
 1. Create interface e.g IAuthRepository
 
-
-
-
 *JWT Token*
 1. Client logins with userpassword to server
 2. Server sends JWT token back to client
 3. Client sends JWT token to server for every request
 4. Server validates and responds
 
-
 [Authorize] attributes for controller apis 
 
 Add middleware in Starter.cs 
 
-
 3rd party 
-- alertifyjs
-- angular JWT
-- NGX Bootstrap
+- Alertifyjs
+- angular JWT - handling tokens / decoding / check to see if expired
+- NGX Bootstrap - dropdown note: instead of using jQuery but to stick with Angular components where we can.
+    And to only use jQuery only when absolutely necesary.
 - Bootswatch - free themes
 
 
+Routing
+ordering is important
+
+to generate auth guard 
+- ng g (for generate) guard auth (name)--SkipTests (?)
 
 
-
-
+Shortcuts
+alt+U to navigate between html / ts 
